@@ -5,7 +5,6 @@ import Data.Array ((:))
 import Data.Typelevel.Num (class Add, toInt')
 import Type.Prelude (Proxy(..))
 
--- type RowCell = { content ∷ string, colspan
 type Cell r = { content ∷ String | r }
 
 newtype CellValue rowspan = CellValue (Cell ())
