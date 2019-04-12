@@ -1,6 +1,5 @@
 module Tables where
 
--- type RowCell = { content ∷ string, colspan
 import Data.Array ((:))
 import Data.Typelevel.Num (class Add, toInt')
 import Type.Prelude (Proxy(..))
